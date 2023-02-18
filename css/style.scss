@@ -1,0 +1,111 @@
+@import "colors";
+@import "classes";
+body {
+    font-family: "Roboto", sans-serif;
+}
+#dashboard {
+    position: relative;
+}
+#sidebar {
+    transition: 0.3s ease;
+    min-height: 100vh;
+    width: 280px;
+    border-right: 1px solid $dark;
+    background-color: $dark;
+    padding: 50px 0;
+    .logo {
+        text-align: center;
+        img {
+            width: 150px;
+        }
+    }
+    .menu {
+        ul {
+            margin: 0;
+            margin-top: 30px;
+            padding: 0;
+            list-style: none;
+            li {
+                a {
+                    transition: 0.2s;
+                    display: block;
+                    color: $white;
+                    text-decoration: none;
+                    padding: 10px 25px;
+                }
+                a.active {
+                    background-color: $red;
+                }
+                a:hover {
+                    background-color: $red;
+                    opacity: 0.9;
+                }
+            }
+        }
+    }
+}
+#right-section {
+    width: 100%;
+}
+#top-nav {
+    .menu-btn {
+        color: $white;
+        width: 45px;
+        text-align: center;
+        font-size: 25px;
+        padding: 0;
+        display: none;
+    }
+    background-color: $red;
+    padding: 3px 15px;
+    line-height: 40px;
+    .user-panel {
+        .user-photo {
+            display: inline-block;
+            height: 26px;
+            width: 26px;
+            margin-right: 5px;
+            background-color: $white;
+            border-radius: 50%;
+            border: 1px solid $dark;
+        }
+        .dropdown {
+            display: inline-block;
+            .btn {
+                padding: 0;
+                line-height: 1;
+            }
+            .name {
+                display: inline-block;
+                color: $white;
+                line-height: 35px;
+            }
+            .dropdown-menu {
+                border-radius: 0;
+                border-radius: 0 0 5px 5px;
+                padding: 0;
+                border: 1px solid $dark;
+                background-color: $dark;
+                .dropdown-item {
+                    transition: 0.2s;
+                    color: $white;
+                    i {
+                        margin-right: 5px;
+                    }
+                }
+                .dropdown-item:hover {
+                    background-color: $red;
+                }
+            }
+        }
+        .dropdown-toggle::after {
+            vertical-align: 3px;
+            font-size: 18px;
+            color: $white;
+        }
+    }
+}
+
+#content {
+    padding: 20px;
+}

@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.src {
+  display: flex;
+  background-color: #79CACA;
+}
+.src .input-group {
+  margin-left: 650px;
+  margin-right: 50px;
+  flex: .9;
+}
+.login{
+  text-decoration: none;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding: 5px 0;
+  color: black;
+
+}
+.login:hover{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.div1 {
+  display: flex;
+  background-color: #a5dbdb;
+  margin-top: -15px;
+  padding: 40px 0;
+}
+.div1 .pic1 {
+  width: 150px;
+}
+.div1 .pic2 {
+  width: 300px;
+}
+
+.div1 .btn {
+  border: none;
+  border-radius: 40px;
+  width: 200px;
+  height: 45px;
+  margin-top: 40px;
+  background-color: #025d73;
+  color: white;
+  margin-left: 10px;
+  font-family: Segoe UI;
+  font-size: 16px;
+}
+.div1 .btn a {
+  text-decoration: none;
+  color: white;
+}
+.div1 .btn:hover {
+  background-color: #0592d0;
+  text-decoration: none;
+}
+
+.div1 .pic3 {
+  height: 100px;
+
+  margin-left: 30px;
+}
+
+.list1{
+  background-color: rgb(51, 133, 177);
+
+
+}
+.nav-item .dropdown .btn {
+  color: #fff;
+}
+
+/* 
+.nav-item .dropdown .btn {
+  border-radius: 0;
+  background-color:rgb(51, 133, 177);
+}
+.nav-item .dropdown .btn:hover{
+  background-color:#033E3E;
+  color: white;
+}
+.dropdown-menu {
+  padding: -2px;
+  margin-top: 0px;
+ }
+.dropdown-menu a{
+  background-color: lightseagreen;
+}
+.dropdown-menu a:hover{
+  background-color: rgb(51, 159, 210);
+} */
